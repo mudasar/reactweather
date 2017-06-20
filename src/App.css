@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin: auto;
+  width: 800px;
 }
 
 .App-logo {
@@ -16,6 +18,25 @@
 
 .App-intro {
   font-size: large;
+}
+
+.topnav {
+  
+}
+
+.topnav li {
+  list-style: none;
+  float: left;
+  display: block;
+  height: 35px;
+  border: 1px solid #ace231;
+  padding: 5px 25px;
+  text-align: center;
+  margin: 20px 10px;
+}
+
+.clearfx {
+  clear: both;
 }
 
 @keyframes App-logo-spin {
